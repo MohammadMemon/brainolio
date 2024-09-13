@@ -246,11 +246,7 @@ nav svg {
   background: linear-gradient(90deg, rgba(249, 121, 48, 1) 6%, rgba(206, 76, 3, 1) 66%);
   margin-bottom: 10px;
 }
-
-.uses .fa-solid,
-.fas,
-.material-symbols-outlined {
-
+.icon-container , .material-symbols-outlined {
   font-size: 125px;
   padding: 10px;
 }
