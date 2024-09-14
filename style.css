@@ -206,7 +206,6 @@ nav svg {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-decoration: underline;
 }
 
 /* Hero End */
@@ -501,6 +500,18 @@ p {
     transform: translate(calc(-50% - 0.5rem));
   }
   
+}
+
+/* Contact page */
+.contact{
+  text-align: center;
+  font-size: 13pt;
+  background: var(--color-1);
+  color: var(--text-color);
+  margin: 10px;
+  border: 2px solid var(--text-color);
+  border-radius: 100px;
+  box-shadow: inset 20px 10px 15px 16px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Start */
