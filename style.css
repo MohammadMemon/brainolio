@@ -503,7 +503,7 @@ p {
 }
 
 /* Contact page */
-.contact{
+.contact, .about{
   text-align: center;
   font-size: 13pt;
   background: var(--color-1);
@@ -512,6 +512,24 @@ p {
   border: 2px solid var(--text-color);
   border-radius: 100px;
   box-shadow: inset 20px 10px 15px 16px rgba(0, 0, 0, 0.1);
+}
+/* About */
+.about h2{
+  margin-bottom: 10px;
+}
+.about i {
+  text-decoration: none;
+  font-size: 32px;
+  color: var(--text-color);
+  padding: 0 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.about i:hover{
+  color: var(--accent-color);
+}
+.about iframe{
+  max-width: 70vw;
 }
 
 /* Footer Start */
@@ -665,6 +683,9 @@ footer .pay img {
     left: 0;
     z-index: 9;
   }
+  .hero{
+    height: 60vh;
+  }
 
   .des-home {
     display: flex;
@@ -694,6 +715,9 @@ footer .pay img {
     margin: 10px auto;
     padding: 15px;
   }
+  .hero h2{
+    font-size: 17pt;
+  }
 }
 
 @media (max-width: 520px) {
@@ -703,6 +727,9 @@ footer .pay img {
 }
 
 @media (max-width: 477px) {
+  .hero h2{
+    font-size: 14pt;
+  }
   .buttons {
     flex-direction: column;
   }
