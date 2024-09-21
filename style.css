@@ -40,7 +40,7 @@ nav {
   height: 100%;
 }
 
-nav a {
+.links-container a {
   padding: 0 20px;
   text-decoration: none;
   color: var(--text-color);
@@ -49,13 +49,13 @@ nav a {
   position: relative;
 }
 
-nav a:hover,
-nav a.active {
+.links-container a:hover,
+.links-container a.active {
   color: var(--accent-color);
 }
 
-nav a.active::after,
-nav a:hover::after {
+.links-container a.active::after,
+.links-container a:hover::after {
   content: "";
   width: 30%;
   height: 2px;
@@ -470,7 +470,7 @@ p {
   padding-block: 1rem;
   display: flex;
   flex-wrap: wrap;
-  height: 300px;
+  height: 400px;
   gap: 1rem;
 }
 .scroller-inner img {
@@ -512,6 +512,7 @@ p {
   border: 2px solid var(--text-color);
   border-radius: 100px;
   box-shadow: inset 20px 10px 15px 16px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
 }
 /* About */
 .about h2{
@@ -648,7 +649,7 @@ footer .pay img {
     margin-left: auto;
   }
 
-  nav a {
+  .links-container a {
     box-sizing: border-box;
     height: auto;
     width: 100%;
@@ -656,8 +657,8 @@ footer .pay img {
     justify-content: flex-start;
   }
 
-  nav a.active::after,
-  nav a:hover::after {
+  .links-container a.active::after,
+  .links-container a:hover::after {
 
     width: 10%;
     height: 3px;
