@@ -514,6 +514,12 @@ p {
   box-shadow: inset 20px 10px 15px 16px rgba(0, 0, 0, 0.1);
   text-decoration: none;
 }
+.contact strong{
+  color: var(--accent-color);
+}
+.contact p{
+  font-size: 15pt;
+}
 /* About */
 .about h2{
   margin-bottom: 10px;
