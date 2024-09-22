@@ -51,7 +51,7 @@ nav {
 
 .links-container a:hover,
 .links-container a.active {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .links-container a.active::after,
@@ -59,7 +59,7 @@ nav {
   content: "";
   width: 30%;
   height: 2px;
-  background-color: var(--accent-color);
+  background-color: var(--text-color);
   position: absolute;
   bottom: -4px;
   left: 20px;
@@ -561,10 +561,14 @@ footer .logo {
   max-width: 25vw;
 }
 
-footer h4 {
+footer .footer-heading {
   color: var(--text-color);
-  font-size: 14px;
+  font-size: 17px;
   padding-bottom: 20px;
+  text-decoration: underline;
+}
+footer .social-links{
+  padding-top: 15px;
 }
 
 footer p {
@@ -581,12 +585,13 @@ footer a {
 }
 
 footer .follow {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 footer .follow i {
   color: var(--accent-color);
-  padding-right: 4px;
+  padding-right: 15px;
+  font-size: 15pt;
   cursor: pointer;
 }
 
