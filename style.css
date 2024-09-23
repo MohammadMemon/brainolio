@@ -81,14 +81,17 @@ nav svg {
 
 /* Navbar End  */
 /* Hero start */
+
 .hero {
   display: flex;
   align-items: center;
   flex-direction: column;
   margin: 20px;
   text-align: center;
-  height: 70vh;
+  padding: 0px 20px; 
+  min-height: 300px; 
 }
+
 .hero h2{
   text-decoration: underline;
   font-style: oblique;
@@ -695,9 +698,7 @@ footer .pay img {
     left: 0;
     z-index: 9;
   }
-  .hero{
-    height: 60vh;
-  }
+  
 
   .des-home {
     display: flex;
