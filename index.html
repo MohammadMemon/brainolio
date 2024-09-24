@@ -43,6 +43,9 @@ src="https://www.facebook.com/tr?id=1307989180611994&ev=PageView&noscript=1"
 </script>
 
 <body>
+    <script>
+        fbq('track', 'InitiateCheckout');
+      </script>
     <!-- Navbar Start -->
     <nav>
         <a href="/"><img src="./images/Logo-Flat.webp" alt="Logo" class="Logo"></a>
@@ -162,7 +165,9 @@ src="https://www.facebook.com/tr?id=1307989180611994&ev=PageView&noscript=1"
         <h1>Special Price for Today - <span>₹249</span> only</h>
             <div class="buttons">
                 <button class="btn-normal"
-                    onclick="window.location.href='https://rzp.io/l/BrainolioWorksheetBundle';"><i
+                    onclick="window.location.href='/redirectpay.html'; 
+                        fbq('track', 'InitiateCheckout');
+                      "><i
                         class="fa-solid fa-download"></i> <strong> </strong>Buy and Download your 6500+ Worksheets,
                     ₹249 only for Today
                 </button>
